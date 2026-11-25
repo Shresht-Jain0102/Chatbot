@@ -1504,7 +1504,7 @@
       function getSelectedModel() {
         const val = modelSelect.value;
         if (val === 'custom') {
-          return customModelInput.value.trim() || 'llama-3.3-70b-versatile';
+          return customModelInput.value.trim() || 'openai/gpt-oss-120b';
         }
         return val;
       }
